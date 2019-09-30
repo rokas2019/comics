@@ -1,18 +1,25 @@
-<nav class = "pink">
-		<div class="nav-wrapper container">
-			<a href="index.php" class="brand-logo">Main</a>
-			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="apie.php ">Apie</a></li>
-				<li><a href="naujienos.php ">News</a></li>
-				<li><a href="collapsible.html ">JavaScript</a></li>
-			</ul>
-		</div>
-	</nav>
-
-	<ul class="sidenav" id="mobile-demo">
-		<li><a href="sass.html">Sass</a></li>
-		<li><a href="badges.html">Components</a></li>
-		<li><a href="collapsible.html">Javascript</a></li>
-		<li><a href="mobile.html">Mobile</a></li>
-	</ul>
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="marvel.php">Marvel</a></li>
+  <li><a href="dc.php">DC</a></li>
+  <li class="divider"></li>
+</ul>
+<nav>
+  <div class="parallax-container nav-wrapper cyan">
+    <a href="#!" class="brand-logo center"><img src="images/logo.png" width=50px></a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Pagrindinis</a></li>
+      <li><a href="naujienos.html">Naujienos</a></li>
+      <li><a href="roko.html">Premjeros</a></li>
+      <li><a href="bendras.html">Statistika</a></li>
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-trigger" href="brigitos.php" data-target="dropdown1">Kompanijos<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+  </div>
+</nav>
+<ul class="sidenav cyan" id="mobile-demo">
+    <li><a href="index.php">Pagrindinis</a></li>
+    <li><a href="naujienos.php">Naujienos</a></li>
+    <li><a href="roko.php">Premjeros</a></li>
+    <li><a href="brigitos.php">Kompanijos</a></li>
+  </ul>
