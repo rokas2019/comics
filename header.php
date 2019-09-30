@@ -1,4 +1,3 @@
-
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="marvel.php">Marvel</a></li>
   <li><a href="dc.php">DC</a></li>
