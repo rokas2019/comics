@@ -3,7 +3,7 @@
 <head>
 	<title>DC or Marvel?</title>
 	
-	<?php inlcude "header-script.php"; ?>
+	<?php include "header-script.php"; ?>
 
 </head>
 
@@ -28,43 +28,7 @@
 	<div class="container">
 		<h1 class = "teal darken-4 pink-text text-lighten-4">Antraštė</h1>
 
-			<?php
-
-
-	$sql = "SELECT * FROM barai";
-	$result = mysqli_query($conn, $sql);
-
-	if (mysqli_num_rows($result) > 0) {
-    // output data of each row
-
-		echo "<table border='1'>";
-
-		while($row = mysqli_fetch_assoc($result)) {
 			
-			//print_r($row);
-
-			//echo $row["name"] . " - " . $row["rating"];
-
-			//echo "<br>";
-
-			echo "<tr>";
-				echo "<td>" . $row["id"] . "</td>";
-   				echo "<td>" . $row["name"] . "</td>";
-   				echo "<td>" . $row["address"] . "</td>";
-   				echo "<td>" . $row["rating"] . "</td>";
-   			echo "</tr>";
-
-		} 
-
-		echo "</table>";
-
-	} else {
-		echo "0 results";
-	}
-
-	mysqli_close($conn);
-	?> 
-
 		<div class="row">
 
 			<div class="col s12 m12 l4 center-align">
