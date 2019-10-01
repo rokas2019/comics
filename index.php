@@ -13,17 +13,18 @@
 	<?php include "header.php";	?>
 
 	
-
+		
 	<div class="parallax-container valign-wrapper virsus ">
 		<div>
 			<h1 class = "center-align" > Welcome to NewYork!</h1>
 			<p class = "blue-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			
 
 		</div>
-		<div class="parallax"><img src="https://picsum.photos/1920/1080"></div>
+		<div class="parallax"><img src="images/dcmarvel.png"></div>
 	</div>
-
+	
 
 	<div class="container">
 		<h1 class = "teal darken-4 pink-text text-lighten-4">Antraštė</h1>
