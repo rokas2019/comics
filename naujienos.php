@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Naujienos</title>
-	<?php include "head.php"; ?>
+	<?php include "header-script.php"; ?>
 </head>
 <body>
 	
