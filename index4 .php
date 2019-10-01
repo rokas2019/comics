@@ -58,7 +58,7 @@
 
 <!-- <iframe src="demo_iframe.htm" height="200" width="300"></iframe> -->
 
-<img class="materialboxed" width="1050" src="comics/imgages/universalpic.jpg">
+<img class="materialboxed" width="1050" src="images/universalpic.jpg">
 <!-- <img src="img/universalpic.jpg"></a> -->
 
 <!-- TRY TABS MATERIALIZE -->
