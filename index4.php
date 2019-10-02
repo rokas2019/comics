@@ -63,22 +63,22 @@
 
             
   <div id="tab-1" class="tab-content current center-align">
-    <img class="center-align" src="img/marvelcompany.jpg">
+    <img class="center-align" src="images/marvelcompany.jpg">
     <p></p>
     Marvel Comics is the brand name and primary imprint of Marvel Worldwide Inc., formerly Marvel Publishing, Inc. and Marvel Comics Group, a publisher of American comic books and related media. In 2009, The Walt Disney Company acquired Marvel Entertainment, Marvel Worldwide's parent company.
   </div>
   <div id="tab-2" class="tab-content center-align">
-    <img class="center-align" src="img/universalpic.jpg">
+    <img class="center-align" src="images/universalpic.jpg">
     <p></p>
      Universal Pictures is an American film studio owned by Comcast through the Universal Filmed Entertainment Group division of its wholly owned subsidiary NBCUniversal.Founded in 1912 by Carl Laemmle, Mark Dintenfass, Charles O. Baumann, Adam Kessel, Pat Powers, William Swanson, David Horsley, Robert H. Cochrane, and Jules Brulatour, it is the oldest surviving film studio in the United States, the world's fifth oldest after Gaumont, Pathé, Titanus, and Nordisk Film, and the oldest member of Hollywood's "Big Five" studios in terms of the overall film market. 
   </div>
   <div id="tab-3" class="tab-content center-align">
-    <img class="center-align" src="img/dccompany.jpg">
+    <img class="center-align" src="images/dccompany.jpg">
     <p></p>
     DC Comics, Inc. is an American comic book publisher. It is the publishing unit of DC Entertainment, a subsidiary of Warner Bros. since 1967.
   </div>
   <div id="tab-4" class="tab-content center-align">
-    <img class="center-align" src="img/ic.jpg">
+    <img class="center-align" src="images/ic.jpg">
     <p></p>
     Image Comics lands number three on the list with a 12.64% unit share. The company was founded in 1992 and honed in on the superhero genre. Later, however, many independent writers lent their work to the company. Todd McFarlane, Jim Lee, Whilce Portacio, Marc Silvestri, Erik Larsen, Jim Valentino, and Rob Liefeld are the founders of the company.
   </div>
@@ -117,7 +117,7 @@
               <div class="col l6 s12">
                 <h5 class="white-text">Comic heroes news!</h5>
                 <p class="white-text text-lighten-4">Check out new comic books by visiting this page:</p>
-                <a href=" http://www.comiclist.com" target="_blank"><img src="img/comic.jpg"></a>
+                <a href=" http://www.comiclist.com" target="_blank"><img src="images/comic.jpg"></a>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
