@@ -63,6 +63,11 @@ function showSlides(n) {
 			dots[slideIndex-1].className += " active";
 		}
 
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+
+
 // nuo cia Brigitos
 $(document).ready(function(){
 	
@@ -77,3 +82,4 @@ $(document).ready(function(){
 	})
 
 })
+

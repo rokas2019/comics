@@ -9,10 +9,10 @@
 }
 
 /*news col borderiai*/
-.col {
+.coli {
 	border-right:5px solid red;
 }
-.col:last-child {
+.coli:last-child {
 	border-right:none;
 }
 #more {display: none;}
@@ -113,6 +113,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
 	.prev, .next,.text {font-size: 11px}
 }
+
 .cyan-text{
 	font-weight: bold;
 }
@@ -238,4 +239,5 @@ body{
   justify-content: center;
   position: center;
 }
+
 
