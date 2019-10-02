@@ -1,7 +1,4 @@
 
-$(document).ready(function(){
-
-
 
 $('input[type=radio]').change(function() {
 
@@ -16,7 +13,7 @@ $('input[type=radio]').change(function() {
 
 	});
 
-
+$(document).ready(function(){
 $('.materialboxed').materialbox();
 $('.parallax').parallax();
 $('.sidenav').sidenav();
