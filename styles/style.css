@@ -114,3 +114,130 @@ img {vertical-align: middle;}
 	.prev, .next,.text {font-size: 11px}
 }
 
+.cyan-text{
+	font-weight: bold;
+}
+
+.gallery img.materialboxed{
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 40%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.comics{
+display: flex;
+justify-content: space-around;
+}
+
+.greeting form{
+	width: 60%;
+}
+
+.grid-container {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "one one two two" "three three three four" "five five five five";
+}
+
+.one { grid-area: one; }
+
+.two { grid-area: two; }
+
+.three { grid-area: three; }
+
+.four { grid-area: four; }
+
+/*nuo cia pridejo Brigita*/
+body{
+      margin-top: 0px;
+      font-family: 'Trebuchet MS', serif;
+      line-height: 1.6
+    }
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    ul.tabs{
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+    }
+    ul.tabs li{
+      background: none;
+      color: #222;
+      display: inline-block;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    ul.tabs li.current{
+      background: #ededed;
+      color: #222;
+    }
+
+    .tab-content{
+      display: none;
+      background: #ededed;
+      padding: 15px;
+    }
+
+    .tab-content.current{
+      display: inherit;
+    }
+    
+.center {
+  justify-content: center;
+  position: center;
+}
+
+

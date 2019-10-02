@@ -1,9 +1,24 @@
 
-console.log("Labas");
+
+$('input[type=radio]').change(function() {
+
+	if (this.value =='batman') {
+
+		alert("You're right!");
+	}
+
+	else {
+		alert ('Not quite right, take a look at the "News" section ' );
+		}
+
+	});
+
 $(document).ready(function(){
 $('.materialboxed').materialbox();
 $('.parallax').parallax();
 $('.sidenav').sidenav();
+$('.collapsible').collapsible();
+$('.modal').modal();
 });
 
 function myFunction() {
@@ -47,6 +62,24 @@ function showSlides(n) {
 			slides[slideIndex-1].style.display = "block";  
 			dots[slideIndex-1].className += " active";
 		}
+
   $(document).ready(function(){
     $('.collapsible').collapsible();
   });
+
+
+// nuo cia Brigitos
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
