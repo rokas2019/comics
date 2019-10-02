@@ -1,10 +1,6 @@
 
 $(document).ready(function(){
-<<<<<<< HEAD
-    $('.materialboxed').materialbox();
-     $('.parallax').parallax();
-     $('.sidenav').sidenav();
-  });
+
 
 
 $('input[type=radio]').change(function() {
@@ -21,8 +17,6 @@ $('input[type=radio]').change(function() {
 	});
 
 
-
-=======
 $('.materialboxed').materialbox();
 $('.parallax').parallax();
 $('.sidenav').sidenav();
@@ -72,4 +66,3 @@ function showSlides(n) {
 			dots[slideIndex-1].className += " active";
 		}
 
->>>>>>> 61ee2b561f434275c6bac84c04a9c873add7dff9
