@@ -6,7 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-	<?php 	$servername = "localhost";
 	$username = "root";
 	$password = "";
 	$dbname = "comics";
@@ -18,7 +17,7 @@
 	}
 
 	mysqli_set_charset($conn, "utf8");
-	?>
+	?> -->
 
 	<?php 
 if(isset($_POST['submit'])){
