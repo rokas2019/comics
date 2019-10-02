@@ -174,3 +174,23 @@ div.desc {
 display: flex;
 justify-content: space-around;
 }
+
+.greeting form{
+	width: 60%;
+}
+
+.grid-container {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "one one two two" "three three three four" "five five five five";
+}
+
+.one { grid-area: one; }
+
+.two { grid-area: two; }
+
+.three { grid-area: three; }
+
+.four { grid-area: four; }
