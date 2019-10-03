@@ -42,7 +42,7 @@
   //   data.addRow([my_2d[i][0], parseInt(my_2d[i][1])])
   // }
 
-  echo "<div id="chart_div"></div>";
+  echo "<div id='chart_div'></div>";
  
 
   mysqli_close($conn);
@@ -50,6 +50,28 @@
 
 
 <?php include "footer.php"; ?>
+
+<script type="text/javascript">
+ google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(draw_my_chart);
+
+      function draw_my_chart() {
+        var data = new google.visualization.arrayToDataTable([
+['film', 'million dollars'],
+['spend', <?php echo $spend; ?>],
+['earn', <?php echo $earn; ?>],
+          ]);
+        
+    var options = {title:'Most successful superheroes films',
+                       width:600,
+                       height:500};
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+      }
+</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script type="text/javascript" src="scripts/script.js"></script>
 
