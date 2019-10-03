@@ -90,7 +90,7 @@
 
 <div class="container" >
 <div class="center-align">
-<h4  style="color: red" class="center-align" >Fun Fact!</h4>
+<h4  style="color: red" class="center-align">Fun Fact!</h4>
 <p class="center-align">
   Michael Jackson looked into—and almost succeeded—in buying Marvel Comics in the late ’90s because he wanted to play Spider-Man and Professor Xavier in the first X-Men movie. In the late ’90s, the King of Pop, who was a huge comic book fan, met with Stan Lee and Peter Paul of Stan Lee Media to see if he could purchase Marvel Comics, with a view to playing the web-slinger on the big screen.
 </p>
