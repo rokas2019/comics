@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Naujienos</title>
+	<title>Comics news</title>
 	<?php include "header-script.php"; ?>
 </head>
 <body>

@@ -9,9 +9,7 @@
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="index.php">Main Page</a></li>
-
       <li><a href="naujienos.php">News</a></li>
-
       <li><a href="news.php">Premieres</a></li>
       <li><a href="statistics.php">Statistics</a></li>
       <!-- Dropdown Trigger -->
