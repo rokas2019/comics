@@ -14,7 +14,7 @@
   <h6 class="ml12 center-align">The world is indeed comic,but the joke is on mankind</h6>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-<?php include "header.php"; ?>
+
 
 <!-- 
     <ul id="dropdown1" class="dropdown-content">
@@ -45,8 +45,9 @@
   </ul>
  -->
 </head>
-<body style="background-color:powderblue;">
+<body style="background-color:aliceblue;">
 
+<?php include "header.php"; ?>
 
 <div class="container">
 
@@ -87,12 +88,14 @@
 
 </div>
 
+<div class="container" >
 <div class="center-align">
-<h4  style="color: red" class="center-align">Fun Fact!</h4>
+<h4  style="color: red" class="center-align" >Fun Fact!</h4>
 <p class="center-align">
   Michael Jackson looked into—and almost succeeded—in buying Marvel Comics in the late ’90s because he wanted to play Spider-Man and Professor Xavier in the first X-Men movie. In the late ’90s, the King of Pop, who was a huge comic book fan, met with Stan Lee and Peter Paul of Stan Lee Media to see if he could purchase Marvel Comics, with a view to playing the web-slinger on the big screen.
 </p>
 <img class="center-align" src="images/mj.png">
+</div>
 </div>
 
 <div class="container"> 
@@ -135,7 +138,7 @@
                   <li><a class="grey-text text-lighten-3" href="index.php">Main Page</a></li>
                   <li><a class="grey-text text-lighten-3" href="naujienos.php">News</a></li>
                   <li><a class="grey-text text-lighten-3" href="roko.php">Premieres</a></li>
-             <li><a class="grey-text text-lighten-3" href="index4.php">Companies</a></li>
+             <li><a class="grey-text text-lighten-3" href="companies.php">Companies</a></li>
 
                 </ul>
               </div>
@@ -144,7 +147,7 @@
           <div class="footer-copyright cyan">
             <div class="container">
             © 2019 All rights reserved
-            <a class="grey-text text-lighten-4 right" href="#!">More links</a>
+            <a class="grey-text text-lighten-4 right" href="https://www.google.com" target="_blank">More links</a>
             </div>
           </div>
 
