@@ -1,4 +1,18 @@
 
+
+$('input[type=radio]').change(function() {
+
+	if (this.value =='batman') {
+
+		alert("You're right!");
+	}
+
+	else {
+		alert ('Not quite right, take a look at the "News" section ' );
+		}
+
+	});
+
 $(document).ready(function(){
 $('.materialboxed').materialbox();
 $('.parallax').parallax();
@@ -37,6 +51,8 @@ function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("mySlides");
 	var dots = document.getElementsByClassName("dot");
+
+	if (slides.length>0) {
 	if (n > slides.length) {slideIndex = 1}    
 		if (n < 1) {slideIndex = slides.length}
 			for (i = 0; i < slides.length; i++) {
@@ -48,4 +64,49 @@ function showSlides(n) {
 			slides[slideIndex-1].style.display = "block";  
 			dots[slideIndex-1].className += " active";
 		}
+	}
+
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+
+
+// nuo cia Brigitos
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml12');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 500 + 30 * i
+  }).add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: (el, i) => 100 + 30 * i
+  });
+
+
 

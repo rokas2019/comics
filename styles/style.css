@@ -9,10 +9,10 @@
 }
 
 /*news col borderiai*/
-.col {
+.coli {
 	border-right:5px solid red;
 }
-.col:last-child {
+.coli:last-child {
 	border-right:none;
 }
 #more {display: none;}
@@ -113,6 +113,8 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
 	.prev, .next,.text {font-size: 11px}
 }
+
+
 .cyan-text{
 	font-weight: bold;
 }
@@ -231,3 +233,96 @@ text-align: center;}
 	display: flex;
 	justify-content: space-around;
 }
+
+.two { grid-area: two; 
+text-align: center;}
+
+.three { grid-area: three;}
+.three p{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.four { grid-area: four; }
+
+.five{
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    width: 100%;
+ 	 display: grid;
+  	grid-template-columns: 100%;
+  	grid-template-rows: auto;
+  	grid-template-areas: "one" "two" "three" "four" "five";
+    margin: 6px 0;
+  }
+}
+
+.five{
+	display: flex;
+	justify-content: space-around;
+
+}
+.spideris{
+	display: flex;
+	justify-content: space-around;
+}
+
+/*nuo cia pridejo Brigita*/
+body{
+      margin-top: 0px;
+      font-family: 'Trebuchet MS', serif;
+      line-height: 1.6
+    }
+    .container{
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    ul.tabs{
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+    }
+    ul.tabs li{
+      background: none;
+      color: #222;
+      display: inline-block;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    ul.tabs li.current{
+      background: #ededed;
+      color: #222;
+    }
+
+    .tab-content{
+      display: none;
+      background: #ededed;
+      padding: 15px;
+    }
+
+    .tab-content.current{
+      display: inherit;
+    }
+    
+.center {
+  justify-content: center;
+  position: center;
+}
+
+.ml12 {
+  font-weight: 180;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+

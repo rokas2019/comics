@@ -9,17 +9,19 @@
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li><a href="index.html">Main Page</a></li>
+
       <li><a href="naujienos.php">News</a></li>
-      <li><a href="roko.html">Premieres</a></li>
-      <li><a href="bendras.html">Statistics</a></li>
+
+      <li><a href="news.php">Premieres</a></li>
+      <li><a href="statistics.php">Statistics</a></li>
       <!-- Dropdown Trigger -->
-      <li><a class="dropdown-trigger" href="brigitos.php" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-trigger" href="companies.php" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>
 <ul class="sidenav cyan" id="mobile-demo">
     <li><a href="index.php">Main page</a></li>
     <li><a href="naujienos.php">News</a></li>
-    <li><a href="roko.php">Premieres</a></li>
-    <li><a href="brigitos.php">Companies</a></li>
+    <li><a href="news.php">Premieres</a></li>
+    <li><a href="companies.php">Companies</a></li>
   </ul>
