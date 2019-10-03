@@ -115,8 +115,13 @@ img {vertical-align: middle;}
 	.prev, .next,.text {font-size: 11px}
 }
 
+
 .cyan-text{
 	font-weight: bold;
+}
+
+.modal-content{
+	text-align: center;
 }
 
 .gallery img.materialboxed{
@@ -127,6 +132,7 @@ img {vertical-align: middle;}
 
 div.gallery {
   border: 1px solid #ccc;
+  margin: 10px;
 
 }
 
@@ -154,14 +160,14 @@ div.desc {
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .responsive {
     width: 100%;
   }
@@ -172,6 +178,7 @@ div.desc {
   display: table;
   clear: both;
 }
+
 .comics{
 display: flex;
 justify-content: space-around;
@@ -179,23 +186,90 @@ justify-content: space-around;
 
 .greeting form{
 	width: 60%;
+	margin-left: 20px;
 }
 
 .grid-container {
-  width: 400px;
-  display: grid;
+ display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "one one two two" "three three three four" "five five five five";
+  grid-template-areas: "one one four four" "one one three three" "one one two five";
+margin-top: 3%;
 }
 
-.one { grid-area: one; }
+.one { grid-area: one;  }
 
-.two { grid-area: two; }
+.two { grid-area: two; 
+text-align: center;}
 
-.three { grid-area: three; }
+.three { grid-area: three;}
+.three p{
+	text-align: center;
+	margin-top: 10%;
+}
 
 .four { grid-area: four; }
+
+.five{
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    width: 100%;
+ 	 display: grid;
+  	grid-template-columns: 100%;
+  	grid-template-rows: auto;
+  	grid-template-areas: "one" "two" "three" "four" "five";
+    margin: 6px 0;
+  }
+}
+
+.five{
+	display: flex;
+	justify-content: space-around;
+
+}
+.spideris{
+	display: flex;
+	justify-content: space-around;
+}
+
+.two { grid-area: two; 
+text-align: center;}
+
+.three { grid-area: three;}
+.three p{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.four { grid-area: four; }
+
+.five{
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    width: 100%;
+ 	 display: grid;
+  	grid-template-columns: 100%;
+  	grid-template-rows: auto;
+  	grid-template-areas: "one" "two" "three" "four" "five";
+    margin: 6px 0;
+  }
+}
+
+.five{
+	display: flex;
+	justify-content: space-around;
+
+}
+.spideris{
+	display: flex;
+	justify-content: space-around;
+}
 
 /*nuo cia pridejo Brigita*/
 body{
@@ -241,6 +315,17 @@ body{
   position: center;
 }
 
+.ml12 {
+  font-weight: 180;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 
 /*news anime text*/
 .ml1 {

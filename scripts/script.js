@@ -51,6 +51,8 @@ function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("mySlides");
 	var dots = document.getElementsByClassName("dot");
+
+	if (slides.length>0) {
 	if (n > slides.length) {slideIndex = 1}    
 		if (n < 1) {slideIndex = slides.length}
 			for (i = 0; i < slides.length; i++) {
@@ -62,6 +64,7 @@ function showSlides(n) {
 			slides[slideIndex-1].style.display = "block";  
 			dots[slideIndex-1].className += " active";
 		}
+	}
 
   $(document).ready(function(){
     $('.collapsible').collapsible();
@@ -83,13 +86,19 @@ $(document).ready(function(){
 
 })
 
+
 // anime text news
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml1 .letters');
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml12');
+
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
   .add({
+
     targets: '.ml1 .letter',
     scale: [0.3,1],
     opacity: [0,1],
@@ -111,4 +120,25 @@ anime.timeline({loop: true})
     duration: 1800,
     easing: "easeOutExpo",
     delay: 1000
+ 
+
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 500 + 30 * i
+  })
+.add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: (el, i) => 100 + 30 * i
   });
+
+
+
+
