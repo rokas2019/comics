@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+g<!DOCTYPE html>
 <html>
 <head>
   <title>Companies</title>
@@ -93,7 +93,7 @@
 </div> 
 
 <!-- cia jau musu footeris -->
-<footer class="page-footer green">
+<!-- <footer class="page-footer cyan">
 
           <div class="container">
             <div class="row">
@@ -124,8 +124,9 @@
         </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script type="text/javascript" src="scripts/script.js"></script>
+  <script type="text/javascript" src="scripts/script.js"></script> -->
         
+<?php include "footer.php"; ?>
 
 </body>
 </html>
