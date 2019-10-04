@@ -13,7 +13,7 @@
       <li><a href="news.php">Premieres</a></li>
       <li><a href="statistics.php">Statistics</a></li>
       <!-- Dropdown Trigger -->
-      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-trigger" href="companies.php" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>

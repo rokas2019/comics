@@ -16,6 +16,7 @@
 
 
 
+<!-- 
     <ul id="dropdown1" class="dropdown-content">
   <li><a href="marvel.php">Marvel</a></li>
   <li><a href="dc.php">DC</a></li>
@@ -26,26 +27,27 @@
      <a href="#!" class="brand-logo center"><img src="images/logo.png" width=50px></a>
      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="index.html">Main Page</a></li>
-      <li><a href="naujienos.html">News</a></li>
-      <li><a href="roko.html">Premieres</a></li>
-      <li><a href="bendras.html">Statistics</a></li>
+      <li><a href="index.php">Main Page</a></li>
+      <li><a href="naujienos.php">News</a></li>
+      <li><a href="news.php">Premieres</a></li>
+      <li><a href="statistics.php">Statistics</a></li> -->
       <!-- Dropdown Trigger -->
-      <li><a class="dropdown-trigger" href="index4.php" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
+  <!--     <li><a class="dropdown-trigger" href="companies.php" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>
-
-  <ul class="sidenav cyan" id="mobile-demo">
+ -->
+<!--   <ul class="sidenav cyan" id="mobile-demo">
     <li><a href="index.php">Main Page</a></li>
     <li><a href="naujienos.php">News</a></li>
-    <li><a href="roko.php">Premieres</a></li>
-    <li><a href="index4.php">Companies</a></li>
+    <li><a href="news.php">Premieres</a></li>
+    <li><a href="companies.php">Companies</a></li>
   </ul>
-
+ -->
 </head>
-<body style="background-color:powderblue;">
+<body style="background-color:aliceblue;">
 
+<?php include "header.php"; ?>
 
 <div class="container">
 
@@ -86,12 +88,14 @@
 
 </div>
 
+<div class="container" >
 <div class="center-align">
 <h4  style="color: red" class="center-align">Fun Fact!</h4>
 <p class="center-align">
   Michael Jackson looked into—and almost succeeded—in buying Marvel Comics in the late ’90s because he wanted to play Spider-Man and Professor Xavier in the first X-Men movie. In the late ’90s, the King of Pop, who was a huge comic book fan, met with Stan Lee and Peter Paul of Stan Lee Media to see if he could purchase Marvel Comics, with a view to playing the web-slinger on the big screen.
 </p>
 <img class="center-align" src="images/mj.png">
+</div>
 </div>
 
 <div class="container"> 
@@ -134,7 +138,7 @@
                   <li><a class="grey-text text-lighten-3" href="index.php">Main Page</a></li>
                   <li><a class="grey-text text-lighten-3" href="naujienos.php">News</a></li>
                   <li><a class="grey-text text-lighten-3" href="roko.php">Premieres</a></li>
-             <li><a class="grey-text text-lighten-3" href="index4.php">Companies</a></li>
+             <li><a class="grey-text text-lighten-3" href="companies.php">Companies</a></li>
 
                 </ul>
               </div>
@@ -143,7 +147,7 @@
           <div class="footer-copyright cyan">
             <div class="container">
             © 2019 All rights reserved
-            <a class="grey-text text-lighten-4 right" href="#!">More links</a>
+            <a class="grey-text text-lighten-4 right" href="https://www.google.com" target="_blank">More links</a>
             </div>
           </div>
 
