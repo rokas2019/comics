@@ -1,6 +1,7 @@
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="companies.php">Marvel</a></li>
 
+
   <li><a href="companies.php#tab-DC comics">DC</a></li>
 
 
