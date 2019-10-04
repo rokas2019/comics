@@ -23,6 +23,19 @@ $('input[type=radio]').change(function() {
 
 	});
 
+// <<<<<<< HEAD
+// =======
+
+// $('.dropdown-trigger').dropdown();
+// $(document).ready(function(){
+// $('.materialboxed').materialbox();
+// $('.parallax').parallax();
+// $('.sidenav').sidenav();
+// $('.collapsible').collapsible();
+// $('.modal').modal();
+// });
+
+// >>>>>>> db3c163792f81a2a0e14c30412f0097781150dd4
 // nuo cia Brigitos
 $(document).ready(function(){
 	
