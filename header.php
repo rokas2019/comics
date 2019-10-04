@@ -1,6 +1,11 @@
+
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="companies.php">Marvel</a></li>
-  <li><a href="companies.php#tab-3">DC</a></li>
+
+
+  <li><a href="companies.php#tab-DC comics">DC</a></li>
+
+
   <li class="divider"></li>
   <li><a href="#!">Universal pictures</a></li>
   <li><a href="#!">Image comics</a></li>
@@ -18,7 +23,7 @@
       <!-- Dropdown Trigger -->
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
-  <
+  
 <ul class="sidenav cyan" id="mobile-demo">
     <li><a href="index.php">Main page</a></li>
     <li><a href="naujienos.php">News</a></li>
@@ -27,7 +32,5 @@
     <li><a href="volume.php">Comics</a></li>
 </ul>
 </div>
-
 </nav>
-
 

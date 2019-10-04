@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	$('.dropdown-trigger').dropdown();
 	$('.materialboxed').materialbox();
@@ -23,19 +24,6 @@ $('input[type=radio]').change(function() {
 
 	});
 
-// <<<<<<< HEAD
-// =======
-
-// $('.dropdown-trigger').dropdown();
-// $(document).ready(function(){
-// $('.materialboxed').materialbox();
-// $('.parallax').parallax();
-// $('.sidenav').sidenav();
-// $('.collapsible').collapsible();
-// $('.modal').modal();
-// });
-
-// >>>>>>> db3c163792f81a2a0e14c30412f0097781150dd4
 // nuo cia Brigitos
 $(document).ready(function(){
 	
@@ -69,6 +57,7 @@ function myFunction() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
+
 function plusSlides(n) {
 	showSlides(slideIndex += n);
 }
@@ -101,63 +90,3 @@ function showSlides(n) {
   });
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
-
-
-
-// // anime text news
-// // Wrap every letter in a span
-// var textWrapper = document.querySelector('.ml1 .letters');
-
-// // // Wrap every letter in a span
-// var textWrapper = document.querySelector('.ml12');
-
-// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-// anime.timeline({loop: true})
-//   .add({
-
-//     targets: '.ml1 .letter',
-//     scale: [0.3,1],
-//     opacity: [0,1],
-//     translateZ: 0,
-//     easing: "easeOutExpo",
-//     duration: 1000,
-//     delay: (el, i) => 70 * (i+1)
-//   }).add({
-//     targets: '.ml1 .line',
-//     scaleX: [0,1],
-//     opacity: [0.5,1],
-//     easing: "easeOutExpo",
-//     duration: 1200,
-//     offset: '-=875',
-//     delay: (el, i, l) => 80 * (l - i)
-//   }).add({
-//     targets: '.ml1',
-//     opacity: 0,
-//     duration: 1800,
-//     easing: "easeOutExpo",
-//     delay: 1000
- 
-
-//     targets: '.ml12 .letter',
-//     translateX: [40,0],
-//     translateZ: 0,
-//     opacity: [0,1],
-//     easing: "easeOutExpo",
-//     duration: 1200,
-//     delay: (el, i) => 500 + 30 * i
-//   })
-// .add({
-//     targets: '.ml12 .letter',
-//     translateX: [0,-30],
-//     opacity: [1,0],
-//     easing: "easeInExpo",
-//     duration: 1100,
-//     delay: (el, i) => 100 + 30 * i
-//   });
-
-
-
-
-
-
