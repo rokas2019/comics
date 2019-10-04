@@ -27,4 +27,7 @@
     <li><a href="volume.php">Comics</a></li>
 </ul>
 </div>
+
 </nav>
+
+
