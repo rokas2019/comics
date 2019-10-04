@@ -94,6 +94,7 @@
 		<iframe width="800" height="315" src="https://www.youtube.com/embed/zAGVQLHvwOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 		</div>
+	</div>
 	
 	<?php include "footer.php"; ?>
 

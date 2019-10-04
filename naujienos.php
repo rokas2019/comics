@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Naujienos</title>
+	<title>Comics news</title>
 	<?php include "header-script.php"; ?>
 </head>
 <body>
@@ -32,12 +32,12 @@
         </p>
 
         <div class="gallery">
-          <img class="materialboxed" src="images/Batman1.jpg" alt="Baby-Bat" height="200px">
+          <img class="materialboxed" src="images/Batman1.jpg" alt="Baby-Bat">
           <div class="desc">The Time Bruce Wayne Was Caught Cheating and Said Batman Made Him Do It</div>
         </div>
 
         <div class="gallery">
-          <img class="materialboxed" src="images/Batman2.jpg" alt="Baby-Bat2" height="200px">
+          <img class="materialboxed" src="images/Batman2.jpg" alt="Baby-Bat2" height="100%">
           <div class="desc">The Time Alfred Spanked Catwoman</div>
         </div>
 
@@ -74,13 +74,13 @@
 
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h3 class="cyan-text center-align">Batman's 80th aniversary!</h3>
-      <p>For 80 years, the Dark Knight has stood as a symbol of determination, bravery and justice to generations of fans. Since appearing in the pages of DETECTIVE COMICS #27 on March 30, 1939, Batman continues to leave his mark in every form of entertainment imaginable. Appearing in countless comics, animation, television, films, video games, toys and other products, he remains the single most popular superhero. He would not be complete without the most iconic gadgets and of course, the Batmobile; not to mention, an unparalleled rogues gallery.
+      <h3 class="cyan-text">Batman's 80th aniversary!</h3>
+      <p class="batman">For 80 years, the Dark Knight has stood as a symbol of determination, bravery and justice to generations of fans. Since appearing in the pages of DETECTIVE COMICS #27 on March 30, 1939, Batman continues to leave his mark in every form of entertainment imaginable. Appearing in countless comics, animation, television, films, video games, toys and other products, he remains the single most popular superhero. He would not be complete without the most iconic gadgets and of course, the Batmobile; not to mention, an unparalleled rogues gallery.
 
         Batman is humanity’s timeless hero and he’s just getting started.
 
       Join us for a year-long global celebration of the Caped Crusader! #LongLiveTheBat #Batman80 #Detective1000</p>
-      <p>Batman Day is almost here and to celebrate the Dark Knight’s 80 years as the World’s Greatest Detective, DC and Warner Bros. are lighting up the night skies by projecting the iconic Bat-Signal, as well as producing fan celebrations, in major cities around the globe on Saturday, September 21.
+      <p class="batman">Batman Day is almost here and to celebrate the Dark Knight’s 80 years as the World’s Greatest Detective, DC and Warner Bros. are lighting up the night skies by projecting the iconic Bat-Signal, as well as producing fan celebrations, in major cities around the globe on Saturday, September 21.
 
         Scroll and zoom your way around the world in the map below for more information on these global celebrations!
       </p>
@@ -155,23 +155,31 @@
     </p>
 
     <p class="cyan-text center-align">New story is here!</p>
-    <div class="grid-container">
-      <div class="one"><img class="materialboxed" src="images/spiderham1.jpg" width="100px"></div>
-      <div class="two"><img class="materialboxed" src="images/spiderham2.jpg" width="100px"></div>
-      <div class="three"><img class="materialboxed" src="images/spiderham3.jpg" width="100px"></div>
-      <div class="four"><img class="materialboxed" src="images/potty-mouth.jpeg" width="100px"></div>
-      <div class="five">The End.</div>
-    </div>
+    <a href="images/spiderham1.jpg" target="_blank"><img src="images/spiderham1.jpg" width="50%"></a>
   </div>
+
   <div class="modal-footer">
     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Thanks for the news!</a>
   </div>
 </div>
 </ul>
-</a>
-</a>
-</a>
 </ul>
+
+<div class="grid-container">
+  <div class="one cyan lighten-5"><img class="spideris" src="images/spideris.png" width="100%"></div>
+  <div class="two orange lighten-4"><img src="images/booknow.png" width="100%"></div>
+  <div class="three indigo lighten-5 deep-orange-text"><p>Want more news? Subscribe here!</p>
+    <form action="subscribe.php" method="post">
+      <input type="email" name="email" id="email" required placeholder="Enter your email address ">
+      <input value="Subscribe" type="submit">
+    </form>
+
+  </div>
+  <div class="four  green lighten-5"> <img src="images/heroes-studio.png" width="100%"></div>
+  <div class="five  red lighten-5"><img src="images/superlogo.png" width="100%"></div>
+</div>
+</div>
+
 
 <?php include "footer.php"; ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
