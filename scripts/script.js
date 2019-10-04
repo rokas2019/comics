@@ -11,7 +11,7 @@ $('input[type=radio]').change(function() {
 	// else {
 	// 	alert ('Not quite right, take a look at the "News" section ' );
 	// 	}
-	$(".row answer-block").addClass("visible");
+	$(".row div.answer-block").addClass("visible");
 
 	});
 
