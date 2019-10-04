@@ -1,3 +1,11 @@
+$(document).ready(function(){
+	$('.dropdown-trigger').dropdown();
+	$('.materialboxed').materialbox();
+	$('.parallax').parallax();
+	$('.sidenav').sidenav();
+	$('.collapsible').collapsible();
+	$('.modal').modal();
+});
 
 
 $('input[type=radio]').change(function() {
@@ -12,15 +20,6 @@ $('input[type=radio]').change(function() {
 		}
 
 	});
-
-$(document).ready(function(){
-	$(".dropdown-trigger").dropdown();
-	$('.materialboxed').materialbox();
-	$('.parallax').parallax();
-	$('.sidenav').sidenav();
-	$('.collapsible').collapsible();
-	$('.modal').modal();
-});
 
 // nuo cia Brigitos
 $(document).ready(function(){
@@ -92,9 +91,6 @@ function showSlides(n) {
 
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
-	});
-
-});
 
 
 
