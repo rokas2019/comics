@@ -1,7 +1,6 @@
 <?php
 $to = "diana.meksriunaite@gmail.com"; // Your Brand Mail ID
-$from = "no-reply@example.com"; // Replace it with your From Mail ID
-
+$from = "dyniad@gmail.com"; // Replace it with your From Mail ID
 $headers = "From: " . $from . "rn";
 
 $subject = "New subscription";

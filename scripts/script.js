@@ -14,6 +14,7 @@ $('input[type=radio]').change(function() {
 	});
 
 $(document).ready(function(){
+	$(".dropdown-trigger").dropdown();
 $('.materialboxed').materialbox();
 $('.parallax').parallax();
 $('.sidenav').sidenav();
@@ -82,9 +83,9 @@ $(document).ready(function(){
 
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
-	})
+	});
 
-})
+});
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml12');
