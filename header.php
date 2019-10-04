@@ -1,4 +1,3 @@
-
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="companies.php">Marvel comics</a></li>
   <li><a href="#!">Universal pictures</a></li>
@@ -6,11 +5,11 @@
   <li><a href="#!">DC comics</a></li>
   <li><a href="#!">Image comics</a></li>
 </ul>
+
 <nav>
-  <div class="nav-wrapper cyan">
-   <a href="#!" class="brand-logo center"><img src="images/logo.png" width=50px></a>
-    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons dehaze">dehaze</i></a>
-    <ul class="right hide-on-med-and-down">
+  <div class="parallax-container nav-wrapper cyan">
+   <a href="index.php" class="brand-logo center"><img src="images/logo.png" width=50px></a>
+     <ul class="right hide-on-med-and-down">
       <li><a href="index.php">Main Page</a></li>
       <li><a href="naujienos.php">News</a></li>
       <li><a href="news.php">Premieres</a></li>

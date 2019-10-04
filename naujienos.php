@@ -180,6 +180,7 @@
   <div class="four green lighten-5"> <img src="images/heroes-studio.png" width="100%"></div>
   <div class="five red lighten-5"><img src="images/superlogo.png" width="100%"></div>
 </div>
+</div>
 
 
 <?php include "footer.php"; ?>

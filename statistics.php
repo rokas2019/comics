@@ -305,7 +305,9 @@
   mysqli_close($conn);
   ?>
 
--->
+
+
+</div>
 
 
 <?php include "footer.php"; ?>
