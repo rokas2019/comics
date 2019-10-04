@@ -78,7 +78,7 @@
 <div class="container">
   <ul class="collapsible">
     <li>
-      <div class="collapsible-header orange"><i class="material-icons">details
+      <div class="collapsible-header cyan"><i class="material-icons">arrow_drop_down
       	
       	<img width="100"src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/800px-MarvelLogo.svg.png"></i>
       
@@ -166,9 +166,9 @@ Source: HN Entertainment <a href="https://hnentertainment.co/exclusive-daina-rei
 
     </li>
     <li>
-      <div class="collapsible-header orange"><i class="material-icons">details
+      <div class="collapsible-header cyan"><i class="material-icons">arrow_drop_down
     <img width="100"src="images/dclogo.png"></i></div>
-      <div class="collapsible-body"><span><div class="vm-middle">
+      <div class="collapsible-body center-align"><span><div class="vm-middle">
 <h6 class="post-title">Birds of Prey Takes Wing in its Fabulous First Poster</h6>
 <p>The Birds of Prey are “heading” out!</p>
 <p>
@@ -270,7 +270,7 @@ Kelly Knox writes about all-ages comics and animation for DCComics.com and her w
       	<div class="video-container">
        <iframe width="853" height="480" src='//players.brightcove.net/5359769168001/rkg9u15t7b_default/index.html?videoId=6090032855001' allowfullscreen frameborder=0></iframe>
    </div>
-       <h6 class = "center-align" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6> 
+       <h6 class = "center-align color white-text" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6> 
       
  
 
@@ -280,7 +280,7 @@ Kelly Knox writes about all-ages comics and animation for DCComics.com and her w
         <div class="video-container">
         	<iframe width="853" height="480" src='//players.brightcove.net/5359769168001/rkg9u15t7b_default/index.html?videoId=6090661537001' allowfullscreen frameborder=0></iframe>
         </div>
-        <h6 class = "center-align" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6>
+        <h6 class = "center-align color white-text" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6>
        
 
        
@@ -291,7 +291,7 @@ Kelly Knox writes about all-ages comics and animation for DCComics.com and her w
         <iframe width="853" height="480" src="https://www.youtube.com/embed/npIj3LjeiM4" frameborder="0" allowfullscreen></iframe>
       </div>
       
-        <h6 class = "center-align" >Justice League - Comic Book Origins</h6>
+        <h6 class = "center-align color white-text" >Justice League - Comic Book Origins</h6>
          
       </div>
 
@@ -306,7 +306,7 @@ Kelly Knox writes about all-ages comics and animation for DCComics.com and her w
       	<div class="video-container">
        <iframe width="853" height="480" src='//players.brightcove.net/5359769168001/rkg9u15t7b_default/index.html?videoId=6090032855001' allowfullscreen frameborder=0></iframe>
    </div>
-       <h6 class = "center-align" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6> 
+       <h6 class = "center-align color white-text" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6> 
       
  
 
@@ -316,7 +316,7 @@ Kelly Knox writes about all-ages comics and animation for DCComics.com and her w
         <div class="video-container">
         	<iframe width="853" height="480" src='//players.brightcove.net/5359769168001/rkg9u15t7b_default/index.html?videoId=6090661537001' allowfullscreen frameborder=0></iframe>
         </div>
-        <h6 class = "center-align" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6>
+        <h6 class = "center-align color white-text" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6>
        
 
        
@@ -327,7 +327,7 @@ Kelly Knox writes about all-ages comics and animation for DCComics.com and her w
         <iframe width="853" height="480" src="https://www.youtube.com/embed/npIj3LjeiM4" frameborder="0" allowfullscreen></iframe>
       </div>
       
-        <h6 class = "center-align" >Justice League - Comic Book Origins</h6>
+        <h6 class = "center-align color white-text" >Justice League - Comic Book Origins</h6>
          
       </div>
 
