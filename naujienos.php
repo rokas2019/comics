@@ -3,8 +3,10 @@
 <head>
 	<title>Comics news</title>
 	<?php include "header-script.php"; ?>
+
+
 </head>
-<body>
+<body class="naujienos">
 	
   <?php include "header.php"; ?>
 
@@ -175,8 +177,8 @@
     </form>
 
   </div>
-  <div class="four  green lighten-5"> <img src="images/heroes-studio.png" width="100%"></div>
-  <div class="five  red lighten-5"><img src="images/superlogo.png" width="100%"></div>
+  <div class="four green lighten-5"> <img src="images/heroes-studio.png" width="100%"></div>
+  <div class="five red lighten-5"><img src="images/superlogo.png" width="100%"></div>
 </div>
 </div>
 

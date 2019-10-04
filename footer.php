@@ -29,7 +29,6 @@
  -->
 
  <footer class="page-footer cyan">
-
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -55,7 +54,6 @@
             <a class="grey-text text-lighten-4 right" href="https://www.google.com" target="_blank">More links</a>
             </div>
           </div>
-
         </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

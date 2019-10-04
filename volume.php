@@ -13,6 +13,8 @@
 
 <?php include "header.php";	?>
 
+<div class = "visi">
+
 <div class="grid-volume">
 
   <div class="Pirmas">
@@ -35,9 +37,10 @@
     <div class="Šeštas">
     	<img src="images/volume5.png">
       </div>
+
 </div>
 
-
+<div>
 <div class = "grid-test">
 	
 	 <div class="test1">
@@ -53,11 +56,11 @@
     
   </div>
 
-
 </div>
 
+<div class = "tobe">
 
-  <h1 class= "tobe"><span id = "T"> T </span>
+  <h1> <span id = "T"> T </span>
       <span id = "O"> O  </span>
       <span id = "tarpas"> &nbsp </span>
       <span id = "B"> B </span>
@@ -73,6 +76,9 @@
       <span id = "EE">E </span>
       <span id = "D">D </span>
  </h1>
+</div>
+
+</div>
 
 </body>
 </html>
