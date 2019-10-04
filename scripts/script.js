@@ -2,14 +2,16 @@
 
 $('input[type=radio]').change(function() {
 
-	if (this.value =='batman') {
+	// if (this.value =='batman') {
 
-		alert("You're right!");
-	}
+	// 	// alert("You're right!");
+	// 	$(this).parents(".row").find(".answer-block").addClass("visible");
+	// }
 
-	else {
-		alert ('Not quite right, take a look at the "News" section ' );
-		}
+	// else {
+	// 	alert ('Not quite right, take a look at the "News" section ' );
+	// 	}
+	$(".row div.answer-block").addClass("visible");
 
 	});
 
@@ -143,6 +145,8 @@ function showSlides(n) {
 //     duration: 1100,
 //     delay: (el, i) => 100 + 30 * i
 //   });
+
+
 
 
 

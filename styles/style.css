@@ -372,4 +372,223 @@ body, html {
 
 
 
+/*Kami*/
+
+
+.glow  {
+  font-size: px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8080ff, 0 0 40px #8080ff, 0 0 50px #8080ff, 0 0 60px #8080ff, 0 0 70px #8080ff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 60px #ff9900, 0 0 70px #ff9900, 0 0 80px #ff9900;
+  }
+}
+
+.answer-block{
+
+  display: none;
+
+}
+
+.answer-block.visible{
+
+  display: inline-block;
+}
+
+.grid-volume { height: 100%; margin: 0; }
+
+.grid-volume * { 
+ border: 1px solid #009fff;
+ position: relative;
+}
+
+.grid-volume *:after { 
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.grid-volume {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Pirmas Pirmas Antras Antras" "Trečias Ketvirtas Ketvirtas Penktas" "Trečias Šeštas Šeštas Penktas";
+}
+
+.Pirmas { grid-area: Pirmas; }   
+.Pirmas img {   width: 100%; 
+                height: 100%;}        
+
+.Antras { grid-area: Antras; }
+.Antras img { width: 100%;
+              height: 100%;}           
+
+.Trečias { grid-area: Trečias; }
+.Trečias img { width: 100%; 
+           height: 100%;  }
+
+.Ketvirtas { grid-area: Ketvirtas; }
+.Ketvirtas img { width: 100%; 
+                height: 100%;  }
+
+.Penktas { grid-area: Penktas; }
+.Penktas img { width: 100%; 
+                height: 100%;  }
+
+.Šeštas { grid-area: Šeštas; }
+.Šeštas img { width: 100%;
+              height: 100%; }
+
+@media (max-width: 1000px) {
+  .grid-volume {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "Pirmas" "Trečias" "Trečias";
+  }
+}
+
+
+
+.grid-test { height: 100%; margin: 0; }
+
+.grid-test * { 
+ border: 1px solid #009fff;
+ position: relative;
+}
+
+.grid-test *:after { 
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.grid-test {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "testa testb" "testa testb" "testc testc" ;
+}
+
+.test1 { grid-area: testa; }   
+.test1 img {   width: 100%; 
+                height: 100%;}        
+
+.test2 { grid-area: testb; }
+.test2 img { width: 100%;
+              height: 100%;}           
+
+.test3 { grid-area: testc; }
+.test3 img { width: 100%; 
+           height: 100%;  }
+
+.test4 { grid-area: testd; }
+.test4 img { width: 100%; 
+                height: 100%;  }
+
+.test5 { grid-area: teste; }
+.test5 img { width: 100%; 
+                height: 100%;  }
+
+.f { grid-area: testf; }
+.f img { width: 100%;
+              height: 100%; }
+
+@media (max-width: 1000px) {
+  .grid-test {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "testa" "testa" "testc";
+  }
+
+}
+
+h1.tobe{
+  text-align: center;
+}
+span {
+  position: relative;
+  left: 0;
+  top: 0;
+  transition: all 1s;
+}
+
+h1:hover span#T  {
+  
+   right: 120px;
+  top: 80px;
+}
+h1:hover span#O  {
+  
+   left: 200px;
+  bottom: 140px;
+}
+h1:hover span#B  {
+  
+   right: 120px;
+  top: 110px;
+}
+h1:hover span#E  {
+  
+  right: 150px;
+  top: 130px;
+}
+h1:hover span#C  {
+  
+   left: 50px;
+  top: 30px;
+}
+h1:hover span#OO  {
+  
+  right: 230px;
+  top: 60px;
+}
+h1:hover span#N  {
+  
+   left: 50px;
+  top: 30px;
+}
+h1:hover span#TT  {
+   
+  right: 130px;
+  top: 150px;
+}
+
+h1:hover span#I  {
+  
+  right: 90px;
+  top: 140px;
+}
+h1:hover span#NN  {
+  
+  right: 70px;
+  top: 300px;
+}
+h1:hover span#U  {
+  
+  left: 80px;
+  top: 110px;
+}
+h1:hover span#EE  {
+  
+  right: 150px;
+  top: 210px;
+}
+h1:hover span#D  {
+  
+  left: 130px;
+  top: 180px;
+}
+
 
