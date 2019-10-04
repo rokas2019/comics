@@ -2,14 +2,16 @@
 
 $('input[type=radio]').change(function() {
 
-	if (this.value =='batman') {
+	// if (this.value =='batman') {
 
-		alert("You're right!");
-	}
+	// 	// alert("You're right!");
+	// 	$(this).parents(".row").find(".answer-block").addClass("visible");
+	// }
 
-	else {
-		alert ('Not quite right, take a look at the "News" section ' );
-		}
+	// else {
+	// 	alert ('Not quite right, take a look at the "News" section ' );
+	// 	}
+	$(".row answer-block").addClass("visible");
 
 	});
 
@@ -82,4 +84,6 @@ $(document).ready(function(){
 	})
 
 })
+
+
 
