@@ -99,11 +99,6 @@ function showSlides(n) {
   $(document).ready(function(){
     $('.collapsible').collapsible();
   });
-
-
-
-
-
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
 
