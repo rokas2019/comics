@@ -21,6 +21,21 @@ $('.collapsible').collapsible();
 $('.modal').modal();
 });
 
+// nuo cia Brigitos
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
 function myFunction() {
 	var dots = document.getElementById("dots");
 	var moreText = document.getElementById("more");
@@ -71,20 +86,7 @@ function showSlides(n) {
   });
 
 
-// nuo cia Brigitos
-$(document).ready(function(){
-	
-	$('ul.tabs li').click(function(){
-		var tab_id = $(this).attr('data-tab');
 
-		$('ul.tabs li').removeClass('current');
-		$('.tab-content').removeClass('current');
-
-		$(this).addClass('current');
-		$("#"+tab_id).addClass('current');
-	})
-
-})
 
 
 // anime text news

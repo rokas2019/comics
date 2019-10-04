@@ -14,36 +14,6 @@
   <h6 class="ml12 center-align">The world is indeed comic,but the joke is on mankind</h6>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-
-
-<!-- 
-    <ul id="dropdown1" class="dropdown-content">
-  <li><a href="marvel.php">Marvel</a></li>
-  <li><a href="dc.php">DC</a></li>
-  <li class="divider"></li>
-    </ul>
-<nav>
-  <div class="parallax-container nav-wrapper red">
-     <a href="#!" class="brand-logo center"><img src="images/logo.png" width=50px></a>
-     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="index.php">Main Page</a></li>
-      <li><a href="naujienos.php">News</a></li>
-      <li><a href="news.php">Premieres</a></li>
-      <li><a href="statistics.php">Statistics</a></li> -->
-      <!-- Dropdown Trigger -->
-  <!--     <li><a class="dropdown-trigger" href="companies.php" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
-    </ul>
-  </div>
-</nav>
- -->
-<!--   <ul class="sidenav cyan" id="mobile-demo">
-    <li><a href="index.php">Main Page</a></li>
-    <li><a href="naujienos.php">News</a></li>
-    <li><a href="news.php">Premieres</a></li>
-    <li><a href="companies.php">Companies</a></li>
-  </ul>
- -->
 </head>
 <body style="background-color:aliceblue;">
 
@@ -137,7 +107,7 @@
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="index.php">Main Page</a></li>
                   <li><a class="grey-text text-lighten-3" href="naujienos.php">News</a></li>
-                  <li><a class="grey-text text-lighten-3" href="roko.php">Premieres</a></li>
+                  <li><a class="grey-text text-lighten-3" href="news.php">Premieres</a></li>
              <li><a class="grey-text text-lighten-3" href="companies.php">Companies</a></li>
 
                 </ul>
