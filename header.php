@@ -14,6 +14,7 @@
       <li><a href="naujienos.php">News</a></li>
       <li><a href="news.php">Premieres</a></li>
       <li><a href="statistics.php">Statistics</a></li>
+      <li><a href="volume.php">Comics</a></li>
       <!-- Dropdown Trigger -->
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Companies<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
@@ -23,6 +24,7 @@
     <li><a href="naujienos.php">News</a></li>
     <li><a href="news.php">Premieres</a></li>
     <li><a href="companies.php">Companies</a></li>
+    <li><a href="volume.php">Comics</a></li>
 </ul>
 </div>
 </nav>
