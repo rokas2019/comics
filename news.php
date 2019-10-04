@@ -304,9 +304,9 @@ Kelly Knox writes about all-ages comics and animation for DCComics.com and her w
 
       <div class=" col s12 m l4 center-align coli">
       	<div class="video-container">
-       <iframe width="853" height="480" src='//players.brightcove.net/5359769168001/rkg9u15t7b_default/index.html?videoId=6090032855001' allowfullscreen frameborder=0></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/H6NUzanLUd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
-       <h6 class = "center-align color white-text" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6> 
+       <h6 class = "center-align color white-text" >Ranking The Most Powerful Avengers In The MCU</h6> 
       
  
 
@@ -314,9 +314,9 @@ Kelly Knox writes about all-ages comics and animation for DCComics.com and her w
       </div>
       <div class=" col s12 m6  l4 center-align coli">
         <div class="video-container">
-        	<iframe width="853" height="480" src='//players.brightcove.net/5359769168001/rkg9u15t7b_default/index.html?videoId=6090661537001' allowfullscreen frameborder=0></iframe>
+        	<iframe width="560" height="315" src="https://www.youtube.com/embed/6Xi6tOig7f4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <h6 class = "center-align color white-text" >Super Hearing With His Dog By His Side! | Marvel Make Me a Hero</h6>
+        <h6 class = "center-align color white-text" >10 Marvel Villains Still Lurking Around The MCU</h6>
        
 
        

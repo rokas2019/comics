@@ -15,6 +15,8 @@ $('input[type=radio]').change(function() {
 
 	});
 
+
+$('.dropdown-trigger').dropdown();
 $(document).ready(function(){
 $('.materialboxed').materialbox();
 $('.parallax').parallax();
