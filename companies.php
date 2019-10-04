@@ -92,6 +92,10 @@
 </div>
 </div> 
 
+<div class="center-align">
+<img src="https://i.gifer.com/X5NY.gif">
+</div>
+
 <!-- cia jau musu footeris -->
 <!-- <footer class="page-footer cyan">
 

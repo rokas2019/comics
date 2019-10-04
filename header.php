@@ -1,6 +1,6 @@
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="companies.php">Marvel</a></li>
-  <li><a href="dc.php">DC</a></li>
+  <li><a href="companies.php/#!tab-1">DC</a></li>
   <li class="divider"></li>
 </ul>
 <nav>
