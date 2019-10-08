@@ -208,11 +208,11 @@
        </div>
      </div>
    </div>
-   <div class="row" style="width: 100%; margin: 0;">
-    <div class="col s4 m8 l4">
+   <div class="row">
+    <div class="col s4 m8 l6" style="800px">
         <div id="piechart1" style="width: 100%;"></div>
       </div>
-        <div class="col s4 m8 l4">
+        <div class="col s4 m8 l6">
         <div id="piechart2" style="width: 100%;"></div>
     </div>
   </div>
