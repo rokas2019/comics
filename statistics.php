@@ -71,12 +71,12 @@
  var data1 = google.visualization.arrayToDataTable([
           ['Superhero', 'No of movies'],
              <?php
-   $sql = "SELECT * FROM topheroes";
+   $sql = "SELECT * FROM pinigai";
    $result = mysqli_query($conn, $sql);
    $string1 = ''; 
    if (mysqli_num_rows($result) > 0){ 
      while($row = mysqli_fetch_assoc($result)) {
-       $string1 .= '["'. $row["company"] . '",' . $row["movies"] . '],';
+       $string1 .= '["'. $row["title"] . '",' . $row["earn"] . '],';
      } 
    }; 
    echo $string1;
@@ -84,7 +84,7 @@
         ]);
 
         var options1 = {
-          title: 'Most popular superheroes by company'
+          title: 'Most successful superheroes films'
         };
 
         var chart1 = new google.visualization.PieChart(document.getElementById('piechart2'));
@@ -190,10 +190,11 @@
 
 
   <div class="container">
-    <h1 class="cyan-text center-align">Superhero films statistics</h1>
     <div class="row">
-      <div class="col s12 m8 l12">
-        <div class="card-panel grey lighten-5 z-depth-1">
+      <div class="col s4 m8 l12">
+
+       <h1 class="cyan-text center-align">Superhero films statistics</h1>
+           <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">
             <div class="col s2">
               <img src="images/avangers.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
@@ -207,17 +208,17 @@
        </div>
      </div>
    </div>
-<div>
-  <div class="container">
    <div class="row">
-        <div id="piechart1" style="width: 45%;"></div>
-        <div id="piechart2" style="width: 45%;"></div>
+    <div class="col s4 m8 l6" style="800px">
+        <div id="piechart1" style="width: 100%;"></div>
+      </div>
+        <div class="col s4 m8 l6">
+        <div id="piechart2" style="width: 100%;"></div>
+    </div>
   </div>
   <div>
     <div id="dual_x_div" style="width: 900px; height: 500px;"></div>
   </div>
-</div>
-</div>
 
 
   <div class="row">
@@ -261,52 +262,6 @@
       </div>
     </div>
   </div>
-          <!-- <div id="from_sql" style="width: 900px; height: 500px;"></div>
-          -->
-
-
-
-
-
-<!-- <?php $sql = "SELECT * FROM pinigai";
-  $result = mysqli_query($conn, $sql);  
-  if (mysqli_num_rows($result) > 0){
-    echo "<table border-size='2'>";  // output data of each row
-    $php_data_array = Array(); 
-      while($row = mysqli_fetch_assoc($result)) {
-         // echo $row["name"] . " - " . $row["rating"];
-          echo "<br>";
-          echo "<tr>";
-          echo "<td>". $row["id"] . "</td>";
-          echo "<td>". $row["title"] . "</td>";
-          echo "<td>". $row["earn"] . "</td>";
-          echo "<td>". $row["spend"] . "</td>";
-          echo "</tr>";
-
-          
-          $php_data_array[] = $row;
-      }
-      echo "</table>";
-  } else {
-      echo "0 results";
-  }
-  $php_data_array[] = $row;
-  echo json_encode($php_data_array);
-  echo "<script>
-        var my_2d = ".json_encode($php_data_array)."</script>";
-
-  // for(i = 0; i < my_2d.length; i++)
-  //   data.addRow([my_2d[i][0], parseInt(my_2d[i][1])])
-  // }
-
-  echo "<div id='chart_div'></div>";
- 
-
-  mysqli_close($conn);
-  ?>
-
-
-
 </div>
 
 

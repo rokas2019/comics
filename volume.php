@@ -18,24 +18,24 @@
 <div class="grid-volume">
 
   <div class="Pirmas">
-      <img src="images/volume1.png" >
+      <img src="images/volume1.PNG" >
   </div>
   <div class="Antras">
-  	<img src="images/volume2.png">
+  	<img src="images/volume2.PNG">
       </div>
   <div class="Trečias">
-  	<img src="images/volume3.png">
+  	<img src="images/volume3.PNG">
     
   </div>
   <div class="Ketvirtas">
 
-  	<img src="images/volume4.png">
+  	<img src="images/volume4.PNG">
   </div>
     <div class="Penktas">
-    	<img src="images/volume6.png">
+    	<img src="images/volume6.PNG">
   </div>
     <div class="Šeštas">
-    	<img src="images/volume5.png">
+    	<img src="images/volume5.PNG">
       </div>
 
 </div>
@@ -44,15 +44,15 @@
 <div class = "grid-test">
 	
 	 <div class="test1">
-      <img src="images/volumea.png" >
+      <img src="images/volumea.PNG" >
   </div>
 
   <div class="test2">
-  	<img src="images/volumeb.png ">
+  	<img src="images/volumeb.PNG">
       </div>
 
   <div class="test3">
-  	<img src="images/volumec.png">
+  	<img src="images/volumec.PNG">
     
   </div>
 
